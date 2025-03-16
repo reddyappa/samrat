@@ -499,7 +499,7 @@ textarea {
     z-index: 9999999;
 }
 
-#preloader .spinner {;
+#preloader .spinner {
   margin: 300px auto;
   width: 50px;
   height: 40px;
@@ -1807,9 +1807,7 @@ line-height: 23px;
 	font-size: 14px;
     padding: 7px 7px;
 }
-#pricing .table-bordered th, .table-bordered td{
-	
-}
+
 #pricing .table thead th{
 	vertical-align:middle;
 }
@@ -1990,9 +1988,7 @@ background-color: #ddd;
 /*-------------------------------------------------------------------------------------
     Pricing
 ---------------------------------------------------------------------------------------*/
-#pricing{
-    
-}
+
 .pricing-table-single {
     background-color: #fff;
     padding: 20px 0 40px;

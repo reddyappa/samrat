@@ -1,0 +1,288 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 576px) { 
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .navbar-brand.logo-sticky.font-600 img {
+        width: 100%;
+    }
+    .isLinks li{
+        width: 100%;
+    }
+.logo-sticky {
+    width: 100%;
+}
+    .header-social{
+        display: none;
+    }
+    .btn{
+        padding: 7px 30px;
+        font-size: 14px;
+    }
+    .caption-content h1{
+        font-size: 44px;
+    }
+    .heading h2 {
+        font-size:30px;
+    }
+     .header-contact-info ul li{
+        font-size: 13px;
+    }
+    .header-social-icons{
+        display: none;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .why-us-img{
+        margin-top: 30px;
+    }
+    .contact-now-button {
+        float: left;
+    }
+    .footer-links{
+        padding-left: 0;
+    }
+
+    .carousel-caption{
+        display: none !important;
+    }
+	.caption-content {
+   padding: 28% 2% 0 !important;
+}
+.color-white2{
+	font-size: 17px !important;
+line-height: 26px !important;
+}
+.inner-height {
+    height: 50vh !important;
+}
+.contentList {
+    width: 100%!important;
+    margin: auto;
+}
+.textQuotationText{
+	width: 100%!important;
+}
+.textQuotation{
+	width: 100%!important;
+}
+.mobileHidden{
+	display:none!important;
+}
+#pricing .contact-now-button a{
+	padding: 12px 18px!important;
+}
+
+
+.banner2 .textBg{
+	width: 100% !important;
+	padding: 30px 20px !important;
+}
+.bannerHd{
+	font-size:22px !important;
+	line-height:normal;
+}
+
+.home-banner-H {
+    font-size: 27px;
+    line-height: normal;
+}
+.industryInner, .solutionInner{
+	padding:20px!important;
+	width:100% !important;
+} 
+.home-banner-container .home-banner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bannerTxt{
+    display: none;
+}
+.btnCov{
+    display: none;
+}
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.banner2 .textBg{
+	width: 100% !important;
+	padding: 30px 20px !important;
+}
+.industryInner, .solutionInner{
+	padding:20px!important;
+	width:100% !important;
+} 
+.home-banner-H {
+    font-size: 27px;
+    line-height: normal;
+}
+.banner2 {
+    min-height: 320px;
+}
+.bannerHd{
+	font-size:23px !important;
+}
+
+    h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .header-social{
+        display: none;
+    }
+    .heading h2 {
+        font-size:32px;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .why-us-img{
+        margin-top: 30px;
+    }
+    .header-social-icons{
+        display: none;
+    }
+    .contact-now-button {
+        float: left;
+    }
+    .footer-links{
+        padding-left: 0;
+    }
+
+    .carousel-caption{
+        bottom: 30px !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 30px;
+        margin-bottom: 0px !important;
+    }
+
+    .carousel-caption p{
+        margin-top: 0px !important;
+    }
+
+     .carousel-caption a{
+        margin-top: 10px !important;
+    }
+	.color-white2{
+	font-size: 17px !important;
+line-height: 26px !important;
+}
+.caption-content {
+    padding: 24% 2% 0 !important;
+}
+.inner-height {
+    height: 50vh !important;
+}
+.contentList {
+    width: 100%;
+    margin: auto;
+}
+.textQuotationText{
+	width: 100%!important;
+}
+.textQuotation{
+	width: 100%!important;
+}
+.mobileHidden{
+	display:none!important;
+}
+#pricing .contact-now-button a{
+	padding: 12px 18px!important;
+}
+
+.home-banner-container .home-banner{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .home-banner-container .home-banner{
+        margin-top: 40px;
+    }
+    .why-us-img{
+        margin-top: 30px;
+    }
+    .contact-now-button {
+        float: left;
+    }
+
+    .carousel-caption{
+        bottom: 50px !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 50px;
+    }
+
+    .carousel-caption p{
+        margin-top: 0px !important;
+    }
+
+     .carousel-caption a{
+        margin-top: 10px !important;
+    }
+	.color-white2{
+	font-size:21px!important;
+	line-height:30px!important;
+}
+.caption-content {
+    padding: 9% 14% 0;
+}
+.inner-height {
+    height: 50vh!important;
+}
+.contentList {
+    width: 100%;
+    margin: auto;
+}
+.textQuotationText{
+	width: 100%!important;
+}
+.textQuotation{
+	width: 100%!important;
+}
+.mobileHidden{
+	display:none!important;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { .color-white2{
+	font-size:21px!important;
+	line-height:30px!important;
+}
+.caption-content {
+    padding: 9% 14% 0;
+}}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1245px) { 
+
+
+     .carousel-caption{
+        bottom: 40px !important;
+    }
+
+}

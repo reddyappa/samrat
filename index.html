@@ -91,11 +91,12 @@
                     </div>
                 </div>
                 <div class="item" >
-                        <img src="images/Enterprise_Application.jpg">
+                        <img src="images/Enterprise_Application2.jpg">
                         <div class="bannerItem banner2" >
                             <div class="textBg">
-                                <h2 class="bannerHd">U.S. Visas</h2>
-                                <div class="bannerTxt">U.S. Department of State - BUREAU of Consular Affairs</div>
+                                <h2 class="bannerHd">Welcome to
+                                    Samrat IT Consulting</h2>
+                                <div class="bannerTxt">We help businesses compete and win in today's technology-driven global markets through Staffing, Solutions and Products.</div>
                                 <div class="btnCov"><a href="#" class="readMoreBtn transition" >Read More</a></div>
                             </div>
                         </div>
@@ -104,8 +105,8 @@
       		            <img src="images/EnterpriseApplication.jpg">
                         <div class="bannerItem banner2" >
                              <div class="textBg">
-                                <h2 class="bannerHd">Enterprise Application</h2>
-                                <div class="bannerTxt">Create powerful applications that are ready to accelerate<br>productivity and scalability to the next level.</div>   
+                                <h2 class="bannerHd">Recruitment Outsourcing Process</h2>
+                                <div class="bannerTxt">Recruitment outsourcing process involves partnering with external experts to manage all or part of the hiring process, from sourcing to onboarding. </div>   
                                 <div class="btnCov"><a href="#" class="readMoreBtn transition" >Read More</a></div>
                              </div>
                          </div>
@@ -118,7 +119,7 @@
         <!--End Banner Section-->
        
 <section class="home-banner-container container-width facilio-homepage-banner" >
-    <div class="locationBg">
+    <div class="locationBg wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
         
         <h2 style="margin-top: 30px;text-align: center;">Our Services</h2>
         <p style="font-size: large;text-align: center;margin-bottom: 40px;">Our capabilities are scalable and our processes are robust and our services are result-oriented independent of the size and scale of organization/project.</p>
@@ -433,29 +434,7 @@
       // itemsMobile : false
  
   });
-  $('#clients').owlCarousel({
-    loop:true,
-    margin:20,
-	autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:2,
-            nav:true
-        },
-        600:{
-            items:4,
-            nav:true
-        },
-        1000:{
-            items:7,
-            nav:false,
-            loop:true,
-        }
-    }
-})
+  
 	
   $("#sidebanner").owlCarousel({
     items: 3,
@@ -476,7 +455,29 @@
       //itemsMobile : true,
  
   });
-		
+  $('#clients').owlCarousel({
+    loop:true,
+    margin:20,
+	autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1000:{
+            items:7,
+            nav:true,
+            loop:true,
+        }
+    }
+})
         });
 		
 	

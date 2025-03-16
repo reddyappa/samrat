@@ -2,19 +2,16 @@
 	header('Content-Type: application/json');
 	$message = '<html><body>';
 	$message .= '<table rules="all" style="border-color: #666; border: 1px solid #CCC;" cellpadding="10">';
-	$message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
+	$message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($_POST['fullName']) . "</td></tr>";
 	$message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
-	$message .= "<tr><td><strong>Subject:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
-	$message .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($_POST['job']) . "</td></tr>";
-	$message .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($_POST['skills']) . "</td></tr>";
-	$message .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($_POST['comment']) . "</td></tr>";
-
+	$message .= "<tr><td><strong>Subject:</strong> </td><td>" . strip_tags($_POST['subject']) . "</td></tr>";
+	$message .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
 	$message .= "</table>";
 	$message .= "</body></html>";
 	
 	$to = 'reddeppa123@gmail.com';
 			
-	$subject = strip_tags($_POST['subject'])." - Asif visa Enquiry";
+	$subject = strip_tags($_POST['subject'])." - Samrat IT Consulting Enquiry";
 	
 	$headers = "From: " . strip_tags($_POST['email']) . "\r\n";
 	$headers = "BCC: reddeppa123@gmail.com \r\n";

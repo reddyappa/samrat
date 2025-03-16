@@ -259,41 +259,61 @@
 </div>
     <!--End Container-->
 </section>
-<section class="industryBox" id="Solutions">
-    <div class="container-fluid">
-        	<div class="row">
-            	<div class="col-sm-12 col-lg-8 innerWindow wow fadeInDown animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-                <div class="industryBg"></div>
-               
-                <div class="industryInner " >
-            	<h4 class="isHd">What is a U.S. Visa?</h4>
-            <ul class="isLinks ">              <li>A citizen of a foreign country who seeks to travel to the United States generally must first obtain a U.S. visa. Visas are placed in the traveler’s passport, a travel document issued by the traveler’s country of citizenship. </li>
+<div class="fullWidth locationBg ">
 
-                <li>Certain international travelers may be eligible to travel to the United States without a visa if they meet the requirements for visa-free travel. The visa section of this website contains information on U.S. visas for foreign citizens seeking to travel to the United States. </li>
-            </ul>
-            </div>
-                </div>
-                
-                <div class="col-sm-12 col-lg-4 solutionBox eqHeight innerWindow wow fadeInDown animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
-                
-                <div class="solutiosBg"></div>
-                <div class="solutionInner " >
-            	<h4 class="isHd">After I apply</h4>
-                <ul class="isLinks "> 
-                <li>Get email updates about my application status</li>
-
-            <li>Respond to a letter or email</li>
-                
-            <li>Using your new passport </li>
-                </ul> 
-                 
+    <div class="container">
+    
+    <h2>Our Clients</h2>
+    <div class="row">
+    
+    
+    
+    
+    <div class="owl-carousel" id="clients">
                     
-            </div>
-                </div>
-                
-                </div>
-        </div>
-</section>
+                    <div class="item">
+                        <img src="images/clients/infinite.jpg" alt="">
+                        
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/intersoft.jpg" alt="">
+                       
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/oakton.jpg" alt="">
+                        
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/impetus.jpg" alt="">
+                        
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/Fis.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/infinite.jpg" alt="">
+                        
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/intersoft.jpg" alt="">
+                       
+                    </div>
+                    <div class="item">
+                        <img src="images/clients/oakton.jpg" alt="">
+                        
+                    </div>
+                    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div></div>
+</div>
         
         
 
@@ -406,7 +426,30 @@
       // itemsMobile : false
  
   });
-  
+  $('#clients').owlCarousel({
+    loop:true,
+    margin:20,
+	autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1000:{
+            items:7,
+            nav:true,
+            loop:true,
+        }
+    }
+})
+	
   $("#sidebanner").owlCarousel({
     items: 3,
     itemsDesktop : [1000,2], // 2 items between 1000px and 901px
